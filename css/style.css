@@ -88,4 +88,16 @@ input[type="checkbox"]:before {
 input:checked[type="checkbox"]:before {
   left: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0 30px;
+  }
+  .container p {
+    font-size: 0.9em;
+  }
+  .container h1 {
+    font-size: 1.5em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
